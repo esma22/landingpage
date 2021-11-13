@@ -201,3 +201,61 @@ footer .contact p a i {
         width: 55%;
     }
 }
+@media (max-width: 992px) {
+    header .page-heading p {
+        width: 70%;
+        font-size: 15px;
+    }
+    header .page-heading h1{
+        font-size: 40px;
+    }
+    header .counter {
+        width: 60%;
+    }
+
+    .input-group {
+        width: 50% !important;
+    }
+
+    section.features .row .media {
+        padding: 15px 10px;
+    }
+
+    section.features .media .media-body h5 {
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 768px) {
+    header .counter {
+        width: 80%;
+    }
+    section.features .media .media-body h5 {
+        font-size: 20px;
+    }
+    section.features .media .media-body p {
+        font-size: 15px;
+    }
+    footer .top-footer h3{
+        font-size: 15px;
+    }
+}
+@media (max-width: 576px) {
+    header .page-heading h1  {
+        font-size: 45px;
+    }
+
+    header .page-heading p {
+        width: 90%;
+    }
+
+    .input-group {
+        width: 80% !important;
+    }
+    section.features .media .media-body h5 {
+        font-size: 20px;
+    }
+    section.features .media .media-body p {
+        font-size: 15px;
+    }
+}
